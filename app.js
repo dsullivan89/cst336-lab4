@@ -49,5 +49,5 @@ app.get('/pluto', function(req, res) {
 })
 
 app.listen(port, ip, function() {
-	console.log("Server is running on http://%s:%d, .", ip, port);
+	console.log("Server is running on 'http://localhost:%d/'.", port);
 });
